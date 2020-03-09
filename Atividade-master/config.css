@@ -3,7 +3,15 @@
 			padding: 0;
 		}
 		body{background-color: #202020;
+			background-image: url("Sousei no Onmyouji.jpg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-attachment: fixed;
 		}
+		#foto_catastrofe div{
+			margin: auto;
+		}
+
 		#foto_catastrofe{
 			float: left;
             
@@ -11,7 +19,17 @@
 			margin-right: 10px;
 		}
 		#começando div{
-			display: flex;
+			/*display: flex;*/
+			background-color: rgba(125 ,67 ,181 ,0.7);
+			padding: 40px;
+			margin: 40px;
+			/*opacity: 0.5;*/ 
+		}
+		.par_group{
+			margin: 20px
+		}
+		#Novo{
+			margin: auto;
 		}
 
 	p{text-align: center;
@@ -23,12 +41,14 @@
 
 	h1{text-align: center;
 		color: purple;
-		display: inline;
+		/*display: inline;*/
 	}
 
 
     h2{text-align: center;
-    color:purple;}
+    color:purple;
+margin: 20px
+}
 
     header{
     border-bottom:5px groove #8B2424;
